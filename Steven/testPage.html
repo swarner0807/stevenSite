@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title> Steven Warner </title> 
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script> 
+		$(document).ready(function(){
+		$("#flip").click(function(){
+		$("#panel").slideToggle("slow");
+  			});
+		});
+	
+		$(document).ready(function(){
+		$("#flip2").click(function(){
+		$("#panel2").slideToggle("slow");
+  			});
+		});
+	</script>
+	<style> 
+		#panel,#flip,#panel2,#flip2 {
+			padding:5px;
+			text-align:center;
+			background-color:#333333;
+			border:solid 1px #c3c3c3;
+			color: #DFDDDD;
+		}
+		#panel,#panel2 {
+			padding:50px;
+			display:none;
+		}
+		
+	</style>
+	</head>
+	
+	<body>
+		<script>
+			function replace( hide, show ) {
+			  document.getElementById(hide).style.display="none";
+			  document.getElementById(show).style.display="block";
+			}
+		</script>
+		
+		<div onclick = "replace('site1','site2')">toggle</div>
+		
+		<div id = "site1">
+		<div id = "flip" style="display:block">
+			<img width="500" height="425" src="images/cbrnew.png">
+		</div>
+		<div id="panel">Hello world!</div><p>
+		</div>
+		
+		<div id ="site2" style="display: none">
+		<div id = "flip2" style="display:block">
+			<img width="500" height="425" src="images/gva2.png">
+		</div>
+		<div id="panel2">Hello world! 2</div>
+		</div>
+		
+		<div onclick = "replace('site2','site1')">toggle</div>
+	</body>
+</html>

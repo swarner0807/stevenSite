@@ -1,0 +1,19 @@
+#wrapper {
+	margin: auto;
+    width: 850px;
+}
+
+#rightContent {
+	float: right;
+	position: relative;
+	top: -25px;
+}
+
+#leftContent {
+	float: left;
+}
+
+img.logo2 {
+	position: relative;
+	left: 50px;
+}

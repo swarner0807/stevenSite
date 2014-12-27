@@ -1,0 +1,53 @@
+<html>
+<head>
+<title> Steven Warner </title> 
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script> 
+		$(document).ready(function(){
+		$("#flip").click(function(){
+		$("#panel").slideToggle("slow");
+  			});
+		});
+	
+		$(document).ready(function(){
+		$("#flip2").click(function(){
+		$("#panel2").slideToggle("slow");
+  			});
+		});
+	</script>
+	<style> 
+		#panel,#flip,#panel2,#flip2 {
+			padding:5px;
+			text-align:center;
+			background-color:#333333;
+			border:solid 1px #c3c3c3;
+			color: #DFDDDD;
+		}
+		#panel,#panel2 {
+			padding:50px;
+			display:none;
+		}
+		
+</style>
+		
+</head>
+
+<body bgcolor=#DFDDDD>
+	
+	<div id="flip">
+		<img width="500" height="425" src="images/cbrnew.png">
+		
+	</div>
+	<div id="panel">Hello world!</div><p>
+		
+		<div id="flip2">
+		<img width="500" height="425" src="images/cbrnew.png">
+		
+	</div>
+	<div id="panel2">Hello world!</div>
+	
+</body>
+</html>
+	
+	
