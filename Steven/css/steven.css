@@ -14,7 +14,7 @@ article {
 	border:2px solid #333333;
 	padding:1px 2px; 
 	background:#333333;
-	width:500;
+	width:500px;
 	height:425px;
 	box-shadow: 10px 10px 5px #888888;
 	border-radius:10px;
@@ -25,14 +25,13 @@ section {
 	margin-top: -432px;
 	padding:1px 2px; 
 	background:#333333;
-	width:500;
+	width:500px;
 	height:425px;
 	box-shadow: 10px 10px 5px #888888;
 	border-radius:10px;
-}
-
-#picture {
-	float: right;
+	color: #DFDDDD;
+	font-size: 130%;
+	font-family: 'Exo 2', sans-serif;
 }
 
 img.steven {
@@ -61,33 +60,25 @@ img.contact {
     top: 5px;
 }
 
-section {
-	color: #DFDDDD;
-	font-size: 130%;
-	font-family: 'Exo 2', sans-serif;
-}
-
 ul {
     list-style-type: circle;
     position: relative;
     top: 10px;
 }
 
-
+footer {text-align:center;}
 
 <!-- CSS for inline about section -->
 
-#wrapperAbout {
-	margin: auto;
-}
+div.#wrapperAbout {margin: auto;}
 
-#rightContentAbout {
+aside {
 	float: right;
 	position: relative;
 	
 }
 
-#leftContentAbout {
+aside.left {
 	float: left;
 }
 
