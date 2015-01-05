@@ -23,7 +23,7 @@
 		innerWidth: false,
 		maxWidth: false,
 		height: 620,
-		initialHeight: "450",
+		initialHeight: "550",
 		innerHeight: false,
 		maxHeight: false,
 		scalePhotos: true,
