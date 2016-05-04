@@ -71,14 +71,15 @@ footer {text-align:center;}
 
 div.#wrapperAbout {margin: auto;}
 
-aside {
+aside.right {
 	float: right;
 	position: relative;
-	
+	width: 350px;
 }
 
 aside.left {
 	float: left;
+	height: 409px;
 }
 
 img.logo2 {
